@@ -9,6 +9,7 @@ class Person {
         lastName = "";
         age = 0;
     }
+    //Constructor with parameters
         public Person(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
