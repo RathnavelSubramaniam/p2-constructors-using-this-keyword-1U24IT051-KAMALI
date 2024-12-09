@@ -13,7 +13,6 @@ class Person {
         this.lastName = lastName;
         this.age = age;
     }
-
     // Method to get full name
     public String getFullName() {
     return firstName + " " + lastName; 
