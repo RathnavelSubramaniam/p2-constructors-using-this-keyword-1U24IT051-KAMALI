@@ -2,15 +2,13 @@ class Person {
     String firstName;
     String lastName;
     int age;
-
-    // Default constructor
+   // Default constructor
     public Person() {
         firstName = "";
         lastName = "";
         age = 0;
     }
-    //Constructor with parameters
-        public Person(String firstName, String lastName, int age) {
+       public Person(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
@@ -18,10 +16,9 @@ class Person {
 
     // Method to get full name
     public String getFullName() {
-    return firstName + " " + lastName; // Add space between first and last name
+    return firstName + " " + lastName; 
     }
 }
-
 public class Practical1 {
     public static void main(String[] args) {
         // Create two Person objects
